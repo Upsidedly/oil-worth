@@ -15,8 +15,8 @@ export default function Home() {
           How much <OilIcon className="inline w-12 h-12" /> am I Expending?
         </h1>
         <p className="text-muted-foreground w-[89%] md:w-2/3 max-w-[600px] text-center mb-4">
-          You may assume this is a website that tracks your carbon emissions. Well, you can think of it like that. For a range of actions, it gives
-          you the amount (in millilitres) of oil that is expended to perform that action. <b>Note</b>: This is an entirely metric website.
+          You may assume this is a website that tracks your carbon emissions. Well, not quite. For a range of actions, it gives
+          you the amount (in millilitres) of oil that is expended/consumed in that action. <b>Note</b>: This is an entirely metric website.
         </p>
         <Tabs defaultValue="existing">
           <TabsList className="flex justify-center">
